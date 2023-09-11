@@ -1,0 +1,64 @@
+$gray: rgb(133, 128, 128);
+
+* {
+  padding: 0;
+  font-size: 14px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  box-shadow: 3px 3px 3px rgb(52, 52, 52);
+  height: 55px;
+  background-color: $gray;
+  margin-bottom: 10px;
+}
+
+.navigation {
+  text-align: center;
+  box-shadow: 3px 3px 3px rgb(52, 52, 52);
+  height: 55px;
+  background-color: $gray;
+  margin-bottom: 10px;
+}
+
+.section {
+  height: 50%;
+}
+
+.article {
+  background-color: rgb(74, 74, 74);
+  height: 50%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  &__section {
+    padding: 10px;
+    margin-right: 10px;
+    height: 200px;
+    width: 50%;
+    background-color: $gray;
+    box-shadow: 3px 3px 3px rgb(52, 52, 52);
+  }
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.aside {
+  padding: 10px;
+  width: 50%;
+  height: 200px;
+  background-color: $gray;
+  text-align: center;
+  box-shadow: 3px 3px 3px rgb(52, 52, 52);
+}
+
+.footer {
+  text-align: center;
+  box-shadow: 3px 3px 3px rgb(52, 52, 52);
+  height: 55px;
+  background-color: $gray;
+}
